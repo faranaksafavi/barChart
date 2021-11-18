@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="barCls.js"></script>
+
+</head>
+
+<body>
+
+  <div name="bar">
+    "Hello!"
+    <div id="paper"    style="border :8px solid black ;background-color:white; color:black; padding:20px;"></div>
+  </div>
+  <div>"Hello, world!"</div>
+  <script>
+    $(document).ready(drawBarChart({ "fran": 125, "bob": 40 , "boo": 90 , "bkjh": 30 },[
+    " border: 1px solid red ",
+    " stroke: grey;stroke-width:10 ; fill:grey; outline-width :2px",
+    " font-size:10px ;font-family:sans-serif ; color:black ; stroke:none ;text-anchor=middle ",
+    "stroke: grey;stroke-width:2 ",
+    "stroke: grey;stroke-width:1 ;fill:none ",
+     " fill:none  ",
+    500,
+  ], $("#paper") ));
+
+  </script>
+</body>
+
+</html>
