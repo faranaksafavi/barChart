@@ -13,8 +13,7 @@ class myBar {
     this.ParentHeight = option[6];
     this.firstLineS=option[5];
     this.parentElement = element;
-    this.paperWidth = this.parentElement[0].clientWidth;
-    this.parentElement[0].setAttribute("style" , "border :8px solid black ; height :".concat(this.ParentHeight.toString()) );
+    this.paperWidth = this.parentElement[0].clientWidth;c
     this.parentLineQt=Math.floor(this.ParentHeight/this.lineDistance);
     this.textSpaceT = this.lineDistance*2;
     this.textSpaceB = -20;
